@@ -1,0 +1,40 @@
+/*create database inventory;*/
+
+/*create table inventory(
+PID int primary key auto_increment,
+ItemName varchar  (30) not null,
+NumberofItem int not null,
+Price int not null,
+Expired_Date date not null
+);*/
+
+
+insert into inventory(ItemName,NumberofItem,Price,Expired_Date)
+values
+("Rebisco","5","7.00","2025-12-02"),
+("Nescafe","4","30.00","2025-02-02"),
+("Max","1","3.00","2025-02-04"),
+("Sunslik","2","8.00","2025-03-08"),
+("kopiko","3","16.00","2025-05-02"),
+("Royal","2","10.00","2025-04-01"),
+("Piatos","1","18.00","2025-01-03"),
+("Hanny","4","3.00","2025-06-05"),
+("Milo","2","8.00","2025-09-05"),
+("Cream Silk","5","8.00","2025-05-01"),
+("Mantomas","2","15.00","2025-12-01"),
+("Cracklings","1","7.00","2025-06-07"),
+("Noodles","2","15.00","2025-05-12"),
+("San Marino","4","25.00","2025-08-03"),
+("555 Tuna","5","28.00","2025-09-06"),
+("Nova","1","20.00","2025-12-09"),
+("ketchup","2","10.00","2025-10-01"),
+("Oyster Sauce","4","15.00","2025-01-07"),
+("Pita","1","7.00","2025-09-02"),
+("Pine apple Juice","2","22.00","2025-09-08"),
+("Hansel","5","8.00","2025-07-23"),
+("Pom Pom","3","6.00","2025-05-19"),
+("Surf","4","12.00","2025-06-01"),
+("Vcut","1","16.00","2025-04-04"),
+("Datu Puti","2","6.00","2025-04-25")
+
+SELECT * FROM inventory
